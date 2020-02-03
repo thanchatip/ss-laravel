@@ -4,6 +4,7 @@
   <meta charset="utf-8" />
   <title>SMART SURVEY | MAE FAH LUANG FOUNDATION</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"/>
   <link rel="stylesheet" href="{{asset('theme/css/bootstrap.css')}}" type="text/css" />
   <link rel="stylesheet" href="{{asset('theme/css/animate.css')}}" type="text/css" />
   <link rel="stylesheet" href="{{asset('theme/css/font-awesome.min.css')}}" type="text/css" />
@@ -16,7 +17,7 @@
 
 <section id="content" class="m-t-lg wrapper-md animated fadeInUp">
     <div class="text-center">
-        <img src="{{asset('theme/images/mflf.png')}}" width="400px">
+    <img src="{{asset('theme/images/mflf.png')}}" class="img-fluid" alt="Responsive image">
     </div>
     <hr>
     <div class="col-md-8 col-md-offset-2">

@@ -1,22 +1,28 @@
 <!DOCTYPE html>
 <html lang="en" class="app">
 <head>
+
   <meta charset="utf-8" />
+  
+
   <title>SMART SURVEY | MAE FAH LUANG FOUNDATION</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"/>
   <link rel="stylesheet" href="theme/css/bootstrap.css" type="text/css" />
   <link rel="stylesheet" href="theme/css/animate.css" type="text/css" />
   <link rel="stylesheet" href="theme/css/font-awesome.min.css" type="text/css" />
   <link rel="stylesheet" href="theme/css/icon.css" type="text/css" />
   <link rel="stylesheet" href="theme/css/font.css" type="text/css" />
   <link rel="stylesheet" href="theme/css/app.css" type="text/css" />
+  
 </head>
 
 <body class="">
-
   <section id="content" class="m-t-lg wrapper-md animated fadeInUp">
-    <div class="text-center">
-        <img src="{{asset('theme/images/mflf.png')}}" width="400px">
+      <div class="text-center">
+                 <!-- <img src="{{asset('theme/images/mflf.png')}}" width="400px"> -->
+                 <!-- <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=10"> -->
+            <img src="{{asset('theme/images/mflf.png')}}" class="img-fluid" alt="Responsive image">
     </div>
     <hr>
     <div class="container aside-xl">
