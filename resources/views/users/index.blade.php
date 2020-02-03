@@ -77,11 +77,11 @@
 			@foreach($user['group_ids'] as $v)
 				@foreach($groups as $vgroup)
 					@if(Auth::user()->firstname == 'admin' && $v == $vgroup['_id'])
-						<span class="label label-default label-sm">{{ $vgroup['name'] }}</span><br>
+						<span class="label label-default label-md">{{ $vgroup['name'] }}</span><br>
 					@else
 					@foreach($adminGroup as $adminGroups)
 						@if($v == $vgroup['_id'] && $adminGroups == $vgroup['_id'])	
-							<span class="label label-default label-sm">{{ $vgroup['name'] }}</span><br>
+							<span class="label label-default label-md">{{ $vgroup['name'] }}</span><br>
 						@endif
 					@endforeach
 					@endif
