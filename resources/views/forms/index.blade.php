@@ -6,9 +6,7 @@
 	<div class="row">
 	    <div class="col-lg-12 margin-tb">
 	        <div class="pull-left">
-	            <h2><i class="fa fa-user"></i>
-				รายการฟอร์ม
-				</h2>
+	            <h2><i class="fa fa-user"></i>รายการฟอร์ม</h2>
 			</div>
 			
 	        <div class="pull-right">

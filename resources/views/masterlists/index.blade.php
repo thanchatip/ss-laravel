@@ -7,12 +7,11 @@
 	<div class="row">
 	    <div class="col-lg-12 margin-tb">
 	        <div class="pull-left">
-	            <h2><i class="fa fa-user"></i>
-	            จัดการประเภทรายการ</h2>
+	            <h2><i class="fa fa-user"></i>จัดการประเภทรายการ</h2>
 	        </div>
 			@permission('create-masterlist')
 	        <div class="dropdown pull-right">
-	            <a class="btn btn-success" href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-plus-square"></i>เพิ่มประเภทรายการ</a>
+	            <a class="btn btn-success" href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-plus-square"></i>  เพิ่มประเภทรายการ</a>
 			    <ul class="dropdown-menu animated fadeInRight">
 			       	<li>
 			            <span class="arrow top"></span>

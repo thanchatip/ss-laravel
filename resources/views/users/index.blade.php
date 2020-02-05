@@ -11,8 +11,7 @@
 	<div class="row">
 	    <div class="col-lg-12 margin-tb">
 	        <div class="pull-left">
-	            <h2><i class="fa fa-user"></i>
-	            จัดการข้อมูลผู้ใช้</h2>
+	            <h2><i class="fa fa-user"></i>จัดการข้อมูลผู้ใช้</h2>
 	        </div>
 			@permission('create-user')
 	        <div class="dropdown pull-right">
