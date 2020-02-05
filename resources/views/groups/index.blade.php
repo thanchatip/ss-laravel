@@ -8,8 +8,7 @@
 	<div class="row">
 	    <div class="col-lg-12 margin-tb">
 	        <div class="pull-left">
-	            <h2><i class="fa fa-key"></i>
-	            จัดการกลุ่มผู้ใช้</h2>
+	            <h2><i class="fa fa-user"></i> จัดการกลุ่มผู้ใช้</h2>
 	        </div>
 			@permission('create-group')
 	        <div class="pull-right">
@@ -27,7 +26,7 @@
 		<hr>
 	    {!! Form::open(['method'=>'GET','url'=>'groups','role'=>'search']) !!}
 		<div class="input-group">
-			<input type="text" class="form-control" name="search" placeholder="ค้นหา...">
+			<input type="text" class="form-control" name="search" placeholder="Search...">
 			<span class="input-group-btn">
 				<button class="btn btn-default" type="submit">
 				        <i class="fa fa-search"></i>

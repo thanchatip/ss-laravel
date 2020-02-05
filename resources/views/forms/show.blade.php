@@ -35,32 +35,32 @@
         <li class="list-group-item">
             <div class="panel-body">
                     <div class="col-xs-12">
-                        <h4>
+                        <h5>
                             <strong>คำอธิบาย :</strong>
                             @if (empty($form['data']['formDescription']))
                                 <span class="label label-danger">ไม่มี</span>
                             @else
                                 {{ $form['data']['formDescription'] }}
                             @endif
-                        </h4>
+                        </h5>
                     </div>
                     <div class="col-xs-12">
-                        <h4>
+                        <h5>
                             <strong>สร้างโดย :</strong>
                             {{ $form['data']['createdBy'] }}
-                        </h4>
+                        </h5>
                     </div>
                     <div class="col-xs-12">
-                        <h4>
+                        <h5>
                             <strong>ตัวอย่างพรีวิว :</strong>
                             {{ $form['data']['previewExample'] }}
-                        </h4>
+                        </h5>
                     </div>
                     <div class="col-xs-12">
-                        <h4>
+                        <h5>
                             <strong>แก้ไขล่าสุด :</strong>
                             {{ DateThai((date('Y-m-d H:i:s', strtotime($form['data']['updatedAt'] . " +7 hour")))) }}
-                        </h4>
+                        </h5>
                     </div>
              </div>
         </li>
@@ -70,19 +70,19 @@
     <div class="row">
         <div class="col-xs-4">
             <center>
-                <font size="24">{{$countAnswerForm}}</font>
+                <h1>{{$countAnswerForm}}</h1>
                 <br>คำตอบ            
             </center>
         </div>
         <div class="col-xs-4">
             <center>
-                <font size="24">{{$countAnswerFormDeleted}}</font>
+                <h1>{{$countAnswerFormDeleted}}</h1>
                 <br>คำตอบที่ถูกลบ
             </center>
         </div>
         <div class="col-xs-4">
             <center>
-                <font size="24">{{$countUserPermission}}</font>
+                <h1>{{$countUserPermission}}</h1>
                 <br>คนที่เข้าถึงได้ 
             </center>
         </div>
@@ -90,19 +90,19 @@
     <div class="row">
         <div class="col-xs-4">
             <center>
-                <font size="24">0</font>
+                <h1>0</h1>
                 <br>Master Data            
             </center>
         </div>
         <div class="col-xs-4">
             <center>
-                <font size="24">{{$countMasterLists}}</font>
+                <h1>{{$countMasterLists}}</h1>
                 <br>Master List
             </center>
         </div>
         <div class="col-xs-4">
             <center>
-                <font size="24">{{$countInnerForms}}</font>
+                <h1>{{$countInnerForms}}</h1>
                 <br>Inner Form 
             </center>
         </div>

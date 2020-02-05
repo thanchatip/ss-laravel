@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <title>SMART SURVEY | MAE FAH LUANG FOUNDATION</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" /> 
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"/>
   <link rel="stylesheet" href="theme/css/bootstrap.css" type="text/css" />
   <link rel="stylesheet" href="theme/css/animate.css" type="text/css" />
@@ -33,7 +33,7 @@
                 array('id'=>'password','class'=>'form-control no-border','placeholder'=>'password'))!!}
             </div>
           </div>
-          <button type="submit" class="btn btn-lg btn-primary btn-block">SIGN IN</button>
+          <button type="submit" class="btn btn-lg btn-primary btn-block">SIGN IN </button>
           <div class="line line-dashed"></div>
           <span class="clearfix"></span>
           @if(count($errors))

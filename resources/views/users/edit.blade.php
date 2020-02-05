@@ -75,21 +75,21 @@
 
         <div class="col-xs-12 col-sm-12 col-md-12">
             <div class="form-group">
-                <strong>รหัสผ่าน:</strong>
+            <h4><strong>รหัสผ่าน:</strong></h4>
                 {!! Form::password('password', array('placeholder' => 'รหัสผ่าน','class' => 'form-control')) !!}
             </div>
         </div>
 
         <div class="col-xs-12 col-sm-12 col-md-12">
             <div class="form-group">
-                <strong>ยืนยันรหัสผ่าน:</strong>
+            <h4><strong>ยืนยันรหัสผ่าน:</strong></h4>
                 {!! Form::password('confirm-password', array('placeholder' => 'ยืนยันรหัสผ่าน','class' => 'form-control')) !!}
             </div>
         </div>
 
         <div class="col-xs-12 col-sm-12 col-md-12">
             <div class="form-group">
-                <strong>การสร้างฟอร์ม:</strong><br>
+            <h4><strong>การสร้างฟอร์ม:</strong></h4><br>
                 {{ Form::radio('allowCreateForm', 1, ['class' => 'form-inline']) }}
                 อนุญาติ
             
@@ -103,7 +103,7 @@
                 <h4><strong>กลุ่ม:</strong></h4>
 
                 @foreach($group as $value)
-                <div class="col-md-3">
+                <div class="col-md-4">
                     <label>{{ Form::checkbox('group[]', $value->id, in_array($value->id, $userGroups) ? true : false, array('class' => 'checkbox-inline i-checks')) }}
 
                     {{ $value->name }}</label>

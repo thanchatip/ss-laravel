@@ -1,9 +1,9 @@
 @extends('theme')
 @section('content')
 <style>
-.tooltip {
-  font-size: 17px;
-}
+/* .tooltip {
+  font-size: 1em;
+} */
 </style>
 <section class="vbox bg-white">
     <section class="scrollable padder">
@@ -29,7 +29,6 @@
 	        </div>
 			@endpermission
 	        <div class="pull-right">
-	
 	        </div>
 	    </div>
 	</div>

@@ -51,7 +51,7 @@ html {
 }
 body {
   font-family: 'neueregular','neuelight','neuebold','rsuregular','rsubold',"Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 21px;
+  font-size: 1.25em;
   color: #788288;
   background-color: transparent;
   -webkit-font-smoothing: antialiased;
@@ -80,7 +80,7 @@ label {
 
 small,
 .small {
-  font-size: 16px;
+  font-size: 1em;
 }
 .badge,
 .label {
@@ -96,7 +96,7 @@ small,
   margin-left: -10px;
 }
 .badge-sm {
-  font-size: 85%;
+  font-size: 1em;
   padding: 2px 5px !important;
 }
 .label-sm {
@@ -104,8 +104,8 @@ small,
   padding-bottom: 0;
 }
 .label-md {
-  padding-top: 5px;
-  padding-bottom: 5px;
+  padding-top: 10px;
+  padding-bottom: px;
 }
 .badge-white {
   background-color: transparent;
@@ -148,7 +148,7 @@ a:hover .caret-white {
   border-color: #eaeef1;
 }
 .popover-content {
-  font-size: 16px;
+  font-size: 1em;
   line-height: 1.5;
 }
 .progress-xs {
@@ -158,7 +158,7 @@ a:hover .caret-white {
   height: 10px;
 }
 .progress-sm .progress-bar {
-  font-size: 12px;
+  font-size: 0.875em;
   line-height: 1em;
 }
 .progress,
@@ -182,11 +182,11 @@ a:hover .caret-white {
   border-radius: 2px;
 }
 .alert {
-  font-size: 14px;
+  font-size: 1em;
   box-shadow: inset 0 1px 0 rgba(255,255,255,0.2);
 }
 .alert .close i {
-  font-size: 16px;
+  font-size: 1em;
   font-weight: normal;
   display: block;
 }
@@ -386,7 +386,7 @@ a.list-group-item:focus {
   position: relative;
 }
 .dropdown-menu {
-  font-size: 20px;
+  font-size: 1.25em;
   border-radius: 2px;
   -webkit-box-shadow: 0 2px 6px rgba(0,0,0,0.1);
   box-shadow: 0 2px 6px rgba(0,0,0,0.1);
@@ -828,7 +828,7 @@ body.container {
 }
 .navbar-header > .btn {
   position: absolute;
-  font-size: 1.3em;
+  font-size: 1.25em;
   padding: 9px 16px;
   line-height: 30px;
   left: 0;
@@ -841,7 +841,7 @@ body.container {
 .navbar-brand {
   float: none;
   text-align: center;
-  font-size: 20px;
+  font-size: 1.25em;
   font-weight: 700;
   height: auto;
   line-height: 50px;
@@ -880,7 +880,7 @@ body.container {
   border-width: 0 !important;
 }
 .nav-primary ul.nav > li > a > .badge {
-  font-size: 11px;
+  font-size: 1em;
   padding: 2px 5px 2px 4px;
   margin-top: 2px;
 }
@@ -930,7 +930,7 @@ body.container {
   .nav-xs .nav-primary > ul > li > a {
     position: relative;
     padding: 0;
-    font-size: 11px;
+    font-size: 1em;
     text-align: center;
     height: 50px;
     overflow-y: hidden;
@@ -949,7 +949,7 @@ body.container {
     width: auto;
     float: none;
     display: block;
-    font-size: 16px;
+    font-size: 1em;
     margin: 0;
     line-height: 50px;
     border: none !important;
@@ -1092,7 +1092,7 @@ body.container {
   .nav-user .dropdown > a {
     display: block;
     text-align: center;
-    font-size: 18px;
+    font-size: 1.25em;
     padding-bottom: 10px;
   }
   .nav-user .avatar {
@@ -1653,7 +1653,7 @@ fieldset[disabled] .btn-dark.active {
 .comment-list .comment-item .panel-heading,
 .comment-list .comment-item .panel-footer {
   position: relative;
-  font-size: 14px;
+  font-size: 1em;
   background-color: #fff;
 }
 .comment-list .comment-reply {
@@ -1712,7 +1712,7 @@ fieldset[disabled] .btn-dark.active {
   text-align: center;
 }
 .timeline .time-icon:before {
-  font-size: 14px;
+  font-size: 1em;
   margin-top: 5px;
 }
 .timeline-item {
@@ -1784,12 +1784,12 @@ fieldset[disabled] .btn-dark.active {
   display: block;
   color: #999;
   margin-bottom: 4px;
-  font-size: 12px;
+  font-size: 1em;1em
 }
 .timeline-caption p {
-  font-size: 12px;
+  font-size: 1em;
   margin-bottom: 0;
-  margin-top: 10px;
+  margin-top: 1em;
 }
 .timeline-footer {
   display: table-row;
@@ -1850,12 +1850,12 @@ fieldset[disabled] .btn-dark.active {
   text-align: center;
 }
 .i-lg {
-  font-size: 1.3333333333333em;
+  font-size: 1;
   line-height: 0.75em;
   vertical-align: -15%;
 }
 .i-sm {
-  font-size: 0.75em;
+  font-size: 0.875em;
 }
 .i-1x {
   font-size: 1em;
@@ -2021,7 +2021,7 @@ fieldset[disabled] .btn-dark.active {
   margin-bottom: 5px;
 }
 .list-icon i {
-  font-size: 20px;
+  font-size: 1.25em;
   width: 40px;
   vertical-align: middle;
   margin: 0;
@@ -2035,7 +2035,7 @@ fieldset[disabled] .btn-dark.active {
   white-space: nowrap;
 }
 .list-icon div:hover i {
-  font-size: 26px;
+  font-size: 1.5em;
 }
 .th-sortable {
   cursor: pointer;
@@ -2079,7 +2079,7 @@ fieldset[disabled] .btn-dark.active {
   padding: 0;
   list-style: none;
   margin-top: 6px;
-  font-size: 12px;
+  font-size: 1em;
 }
 .parsley-error {
   border-color: #ff5f5f !important;
@@ -2988,16 +2988,16 @@ fieldset[disabled] .btn-dark.active {
   font-weight: 700;
 }
 .text-lg {
-  font-size: 20px;
+  font-size: 1.5em;
 }
 .text-md {
-  font-size: 18px;
+  font-size: 1.25em;
 }
 .text-sm {
-  font-size: 16px;
+  font-size: 1em;
 }
 .text-xs {
-  font-size: 14px;
+  font-size: 0.875em;
 }
 .text-ellipsis {
   display: block;
@@ -3495,7 +3495,7 @@ fieldset[disabled] .i-checks input + i:before {
   vertical-align: middle;
   margin-right: 4px;
   position: relative;
-  font-size: 14px;
+  font-size: 1em;
 }
 .ie8 .i-checks i {
   display: none;

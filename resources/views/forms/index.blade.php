@@ -7,12 +7,18 @@
 	    <div class="col-lg-12 margin-tb">
 	        <div class="pull-left">
 	            <h2><i class="fa fa-user"></i>
-	            รายการฟอร์ม</h2>
-	        </div>
+				รายการฟอร์ม
+				</h2>
+			</div>
+			
 	        <div class="pull-right">
+			</div>
+	    </div>
+	</div>
+	<hr>
 	        	{!! Form::open(['method'=>'GET','url'=>'forms','role'=>'search']) !!}
 				<div class="input-group">
-				    <input type="text" class="form-control" name="search" placeholder="ค้นหา...">
+				    <input type="text" class="form-control" name="search" placeholder="Search...">
 				    <span class="input-group-btn">
 				        <button class="btn btn-default" type="submit">
 				            <i class="fa fa-search"></i>
@@ -20,11 +26,7 @@
 				    </span>
 				</div>
 				{!! Form::close() !!}
-	        </div>
-
-	    </div>
-	</div>
-		<hr>
+	<br>		
 	@if ($message = Session::get('success'))
 		<div class="alert alert-success">
 			<p>{{ $message }}</p>

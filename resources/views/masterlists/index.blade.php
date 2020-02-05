@@ -12,7 +12,7 @@
 	        </div>
 			@permission('create-masterlist')
 	        <div class="dropdown pull-right">
-	            <a class="btn btn-success" href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-plus-square"></i>  เพิ่มประเภทรายการ</a>
+	            <a class="btn btn-success" href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-plus-square"></i>เพิ่มประเภทรายการ</a>
 			    <ul class="dropdown-menu animated fadeInRight">
 			       	<li>
 			            <span class="arrow top"></span>
@@ -25,9 +25,13 @@
 	        </div>
 			@endpermission
 	        <div class="pull-right">
+			</div>
+		</div>
+	</div>
+		<hr>
 	        	{!! Form::open(['method'=>'GET','url'=>'masterlists','role'=>'search']) !!}
 				<div class="input-group">
-				    <input type="text" class="form-control" name="search" placeholder="ค้นหา...">
+				    <input type="text" class="form-control" name="search" placeholder="Search...">
 				    <span class="input-group-btn">
 				        <button class="btn btn-default" type="submit">
 				            <i class="fa fa-search"></i>
@@ -35,10 +39,8 @@
 				    </span>
 				</div>
 				{!! Form::close() !!}
-	        </div>
-	    </div>
-	</div>
-		<hr>
+				<br>
+		
 	@if ($message = Session::get('success'))
 		<div class="alert alert-success">
 			<p>{{ $message }}</p>

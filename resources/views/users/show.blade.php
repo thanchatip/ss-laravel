@@ -24,7 +24,7 @@
             <div class="panel-body">
                 <div class="col-lg-6">
                     <div class="padder-v text-center">
-                        <span class="m-b-xs h3 block text-dark">
+                        <span class="m-b-xs block text-dark">
                         @if(!empty($user['group_ids']))
                         @foreach($user['group_ids'] as $v)	
 			                @foreach($groups as $group)
@@ -35,18 +35,18 @@
                         @endforeach
                         @endif
                         </span><br>
-                        <small class="h4 text-muted">กลุ่ม</small>
+                        <small class="h5 text-muted">กลุ่ม</small>
                     </div>
                 </div>
                 <div class="col-lg-6">
                     <div class="padder-v text-center">
-                        <span class="m-b-xs h3 block text-dark">
+                        <span class="m-b-xs block text-dark">
                         @if(!empty($user->roles))
                             @foreach($user->roles as $v)
                             <span class="label label-default label-md">{{ $v->display_name }}</span>
                             @endforeach
                         @endif</span><br>
-                        <small class="h4 text-muted">สิทธิ์การใช้งาน</small>
+                        <small class="h5 text-muted">สิทธิ์การใช้งาน</small>
                     </div>
                 </div>
             </div>
@@ -54,20 +54,20 @@
                 <div class="row pull-out">
                     <div class="col-xs-4">
                         <div class="padder-v">
-                            <span class="m-b-xs h3 block text-dark">{{ $user->code }}</span>
-                            <small class="h4 text-muted">รหัสพนักงาน</small>
+                            <span class="m-b-xs h5 block text-dark">{{ $user->code }}</span>
+                            <small class="h5 text-muted">รหัสพนักงาน</small>
                         </div>
                     </div>
                     <div class="col-xs-4 dker">
                         <div class="padder-v">
-                            <span class="m-b-xs h3 block text-dark">{{ $user->prefix }} {{ $user->firstname }} {{ $user->lastname }}</span>
-                            <small class="h4 text-muted">ชื่อ-สกุล</small>
+                            <span class="m-b-xs h5 block text-dark">{{ $user->prefix }} {{ $user->firstname }} {{ $user->lastname }}</span>
+                            <small class="h5 text-muted">ชื่อ-สกุล</small>
                         </div>
                     </div>
                     <div class="col-xs-4">
                         <div class="padder-v">
-                            <span class="m-b-xs h3 block text-dark">{{ $user->email }}</span>
-                            <small class="h4 text-muted">อีเมล์</small>
+                            <span class="m-b-xs h5 block text-dark">{{ $user->email }}</span>
+                            <small class="h5 text-muted">อีเมล์</small>
                         </div>
                     </div>
                 </div>
