@@ -8,7 +8,7 @@
 	<div class="row">
 	    <div class="col-lg-12 margin-tb">
 	        <div class="pull-left">
-	            <h2><i class="fa fa-user"></i> จัดการกลุ่มผู้ใช้</h2>
+	            <h2><i class="fa fa-user"></i>	จัดการกลุ่มผู้ใช้</h2>
 	        </div>
 			@permission('create-group')
 	        <div class="pull-right">
